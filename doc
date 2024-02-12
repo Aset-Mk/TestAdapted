@@ -1,0 +1,46 @@
+let thems = ["тема1","тема2"];
+let thems60 = [];
+let thems30 = ["тема"];
+let col_problems=[23];
+let them=thems[0];
+let odno1=true;
+let chet1=0;
+let chet2=0;
+let chet3=0;
+let net1=true;
+let net2=true;
+function next(a){
+    if(a==1 && odno1){
+        them=thems[0];
+        let mit = Math.floor(Math.random() * 101);
+        if(mit>70 || net1){
+            //рандомизирует 100 процентов
+            
+        }else if(mit>30 || net2){
+            //рандомизирует 60 процентов
+            chet2++
+            if(chet2==20){
+                net1=true
+                net2=false
+            }
+        }else{
+            //рандомизирует 30 процентов
+            chet3++
+            if(chet3==25){
+                net2=true
+            }
+
+        }
+    }else if(a==2 && odno1){
+        //назначает
+        odno1=false
+    }else{
+        //добавляет ту же тему
+        chet1++
+        if(chet1==10){
+            odno1=true
+            net1=false
+        }
+    }
+}
+next(1)

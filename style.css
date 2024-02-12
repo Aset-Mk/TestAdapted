@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    background: #1d003e;
+}
+.video{
+    width:100%;
+    height: auto;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: -10;
+}
+.maincontent{
+    height: 100%;
+    margin:0 20%;
+    padding:30px;
+    background: white;
+    border-end-end-radius: 30px;
+    border-end-start-radius: 30px;
+    margin-bottom: 20px;
+    box-shadow: 0px 15px 10px black;
+}
+.head{
+    padding: 20px 0;
+    color:white;
+    width: 100%;
+    background: #517DA2;
+}
+.head p{
+    margin: 0;
+    margin-left: 50px;
+}
+.content{
+    margin: 20px 50px;
+    margin-top: 0;
+    padding: 20px 0;
+    padding-top: 30px;
+    border-top: 2px solid #517DA2;
+    border-bottom: 2px solid #517DA2;
+    text-align: center;
+}
+.answer{
+    margin: 25px 50px;
+    padding: 25px 0;
+    padding-top: 30px;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    text-align: center;
+    display: none;
+}
+.answer span{
+    margin-top: 20px;
+    font-size: 10px;
+    text-align: center;
+    display: block;
+}
+.button{
+    text-align: center;
+    color: #7f7f7f;
+    
+    text-decoration: 1px underline solid #999;
+    text-underline-offset: 5px;
+}
+.button-answer{
+    text-align: center;
+    color: #7f7f7f;
+    display: none;
+}

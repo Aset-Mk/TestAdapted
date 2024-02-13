@@ -6,7 +6,7 @@ let materiallink=["https://youtu.be/19H7-BBwMoQ?si=r2NG1jSMnuQiGfp7", "https://y
 let repeat=0;
 let cyclemassive=[0, 0, 0]
 let veroatmassive=[0.2, 0.2, 0.2]
-let colmassive=[23,14,17]
+let colmassive=[23,14,9]
 let them=0;
 let question=2;
 

@@ -45,7 +45,7 @@ function next(){
             question++
         }
         const questionblock = document.querySelector(".question")
-        questionblock.src="problems/"+thems[them]+"/1 ("+question+").jpg"
+        questionblock.src=thems[them]+"/1 ("+question+").jpg"
         repeat--
         cyclemassive[them]=20;
         probabilities[them].probability=0.8
@@ -68,7 +68,7 @@ function next(){
         }
         console.log(them, "тема")
         const questionblock = document.querySelector(".question")
-        questionblock.src="problems/"+thems[them]+"/1 ("+question+").jpg"
+        questionblock.src=thems[them]+"/1 ("+question+").jpg"
 
     }
     const answer = document.querySelector(".answer")
@@ -93,7 +93,7 @@ function view(){
     const answerimg = document.querySelector(".answerimg")
     let number=question-1;
     console.log(them, "тема")
-    answerimg.src="problems/"+thems[them]+"/1 ("+number+").jpg"
+    answerimg.src=thems[them]+"/1 ("+number+").jpg"
     
 }
 
